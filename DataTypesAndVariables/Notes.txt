@@ -1,0 +1,66 @@
+﻿Burada data tiplerini ve değişkenler konusunu işleyecez. Proje çalışmamızı genelikle Shop(Mağaza) üzerinden anlatacaz
+
+Veri Türleri
+1. int (Integer)
+Tam sayı verilerini tutar.
+Ondalık kısım içermez, pozitif ve negatif tam sayıları temsil eder.
+Bellekte 4 byte yer kaplar.
+Örnek kullanım alanları: yaş, stok miktarı, öğrenci sayısı gibi tam sayı gerektiren veriler.
+short ve byte kullanılır veri türü tam sayılar için ama sektörde çok kullanılmaz.
+
+
+2. double
+Ondalıklı (küsuratlı) sayıları tutar.
+Hem tam sayı hem de ondalık kısmı olan sayılar için kullanılır.
+Bellekte 8 byte yer kaplar.
+Örnek kullanım alanları: ürün fiyatları, sıcaklık değerleri, hassas ölçümler.
+
+3. string
+Metinsel verileri saklamak için kullanılır.
+Karakterlerden oluşan bir diziyi temsil eder (harfler, sayılar, semboller dahil).
+Değişken uzunluklu verileri tutabilir.
+Örnek kullanım alanları: isimler, adresler, açıklamalar.
+
+4. bool (Boolean)
+Mantıksal veri türüdür, sadece iki değer alabilir: true (doğru) ve false (yanlış).
+Karar mekanizmalarında ve koşul ifadelerinde sıkça kullanılır.
+Bellekte 1 bit yer kaplar.
+Örnek kullanım alanları: ışığın açık mı kapalı mı olduğu, kullanıcının giriş yapıp yapmadığı.
+
+5. char
+Tek bir karakteri saklar.
+Tek bir harf, sayı veya sembol olabilir.
+Bellekte 2 byte yer kaplar.
+Örnek kullanım alanları: tek karakterli kategori kodları, semboller.
+
+6. decimal
+Finansal ve parasal işlemlerde kullanılan veri türüdür.
+Ondalıklı sayılarla çalışır ama daha yüksek doğruluk gerektiren işlemler için kullanılır.
+Bellekte 16 byte yer kaplar.
+Örnek kullanım alanları: para hesaplamaları, faiz oranları.
+
+7. float
+Ondalıklı sayıları saklar ancak double veri türüne göre daha az hassasiyetlidir.
+Bellekte 4 byte yer kaplar.
+Hassasiyet gerekmeyen bilimsel ölçümler veya grafiksel hesaplamalar için kullanılır.
+
+ **** OBJELER ****
+
+//// Tüm veri türlerinin temelidir. Herhangi bir türde veri tutabilir.
+//object nesne = "Merhaba"; // Herhangi bir türde nesne (string)
+
+
+
+Özet:
+int: Tam sayılar.
+double, float, decimal: Ondalıklı sayılar, aralarındaki fark hassasiyet ve bellek kullanımında.
+string: Metin verileri.
+char: Tek karakter.
+bool: Mantıksal true/false.
+
+//DEĞİŞKENLER**
+// Değişkenler, bir uygulamada verileri yönetmek için kullanılır. Her değişkenin bir veri türü vardır ve bu tür, o verinin formatını (int mi, string mi vb.) belirler.
+// YOUTUBE KANALI veya başka bir platformda değişkenlerin nasıl kullanıldığına dair örnekler verilebilir.
+
+.NET Framework, yalnızca Windows'ta çalışan eski projeler için hala geçerlidir. Ancak, yeni projelerde genellikle tercih edilmez.
+.NET Core, modern, performans odaklı, çapraz platform ve açık kaynak bir platform olarak yeni projelerde önerilen teknolojidir.

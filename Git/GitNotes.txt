@@ -1,0 +1,184 @@
+﻿git config komutu, Git'in yapılandırma ayarlarını yönetmek için kullanılan temel bir araçtır. Git ile çalışırken, projelerinizi ve kullanıcı ayarlarınızı özelleştirmek için bu komutu kullanabilirsiniz. İşte detaylı bir açıklama:
+
+1. Git Yapılandırma Düzeyleri
+Git yapılandırmaları üç düzeyde ayarlanabilir:
+
+Sistem Düzeyi: Tüm kullanıcılar için geçerli ayarlar. Genellikle Git'in yüklü olduğu sistemin global ayarlarıdır. Bu ayarlar, /etc/gitconfig dosyasında bulunur.
+Kullanıcı Düzeyi: Belirli bir kullanıcı için geçerli ayarlar. Kullanıcının ev dizininde (~/.gitconfig veya ~/.config/git/config) bulunur. Bu ayarlar, o kullanıcı tarafından kullanılan tüm Git projeleri için geçerlidir.
+Proje Düzeyi: Belirli bir Git deposuna özgü ayarlar. Bu ayarlar, projelerin kök dizininde bulunan .git/config dosyasında bulunur.
+
+2. git config Komutları
+a. Ayarları Görüntüleme
+
+Tüm Ayarları Listeleme:
+git config --list
+Bu komut, hem kullanıcı hem de sistem düzeyindeki ayarları listeler.
+
+Belirli Bir Ayarı Görüntüleme:
+git config user.name
+Bu komut, yapılandırılmış kullanıcı adını gösterir.
+
+b. Ayarları Yapılandırma
+Kullanıcı Adı ve E-posta Adresi Ayarlama: Kullanıcı adı ve e-posta adresi, Git commit'lerinin kim tarafından yapıldığını belirtmek için gereklidir.
+git config --global user.name "Adınız"
+git config --global user.email "email@ornek.com"
+
+--global bayrağı, bu ayarların tüm projelerde geçerli olmasını sağlar. Eğer belirli bir proje için ayarlamak isterseniz, --global bayrağını kullanmayarak proje düzeyinde ayar yapabilirsiniz.
+
+Varsayılan Editörü Ayarlama: Git, commit mesajlarını yazmak için varsayılan bir editör kullanır. Örneğin, vim kullanmak istiyorsanız:
+git config --global core.editor vim
+
+c. Ayarları Silme
+Belirli bir ayarı silmek için --unset bayrağını kullanabilirsiniz:
+git config --global --unset user.name
+
+3. Önemli Ayarlar ve Kullanım Alanları
+color.ui: Git çıktısında renk kullanımını belirler.
+git config --global color.ui auto
+
+merge.tool: Birleştirme çatışmalarını çözmek için kullanılan aracı belirler.
+git config --global merge.tool meld
+credential.helper: Kimlik bilgilerinizi saklamak için bir yöntem ayarlamanızı sağlar. Bu, özellikle HTTPS bağlantıları için faydalıdır.
+git config --global credential.helper cache
+
+4. Git Yapılandırma Dosyaları
+Sistem Düzeyi: /etc/gitconfig dosyası.
+Kullanıcı Düzeyi: ~/.gitconfig veya ~/.config/git/config dosyası.
+
+Proje Düzeyi: Her Git deposunun içinde .git/config dosyası.
+5. Komutların Kısayolu
+Yalnızca belirli bir düzeyde ayarları görüntülemek için:
+
+Sistem Düzeyi Ayarlar:
+
+git config --system --list
+Kullanıcı Düzeyi Ayarlar:
+
+git config --global --list
+
+Proje Düzeyi Ayarlar:
+
+git config --local --list
+Özet
+git config, Git kullanıcıları için yapılandırma ayarlarını yönetmenin temel yoludur. Kullanıcı adı ve e-posta gibi kişisel ayarları belirlemenin yanı sıra, proje bazında özel ayarlar yapmanıza da olanak tanır.
+Git'i daha verimli bir şekilde kullanabilmek için bu yapılandırmaları anlamak ve yönetmek önemlidir.
+
+Not: git ekranındayken pc yön tuşları ile ileri  ve aldığın komutları yazabilirsin
+
+not: git clear yapınca ekranı temizler
+
+not:pwd ile de hangi klasör dizininde olduğunu gösterir
+
+not: cd .. bu şekilde bir üst klasöre çıkıyorsun
+
+not: cd klaösrİsmi yazarsan direk seni ilgili klasörün içine atar
+
+not: git yazmak zorunda değilsin mesela git clear yerine direk clear olarak yazabilirsin
+
+not: mkdir app dersen app adında desktop ta bir klasör oluşturur
+
+not :cd app dersen app klasörün içine girersin
+
+not:touch index.html dersen app klasörünün içindeyken böyle bir dosya oluşturur.
+
+not: ls yazarsan bulunduğun klasörde hangi dosyalar var ise onları listeler
+
+not:git init yaptığın zaman bulunduğun kalsörde git deposu oluşturur.
+
+mot:ls -a bu şkeilde gizli olan dosylarıda listeler yada görünüm ksımında ise düzenleyebilirsin
+ 
+ not:cd ~/Desktop şu şekilde ile giti yeni açtığında istediğin yere gidebilirisn 
+
+
+ git status Çıktısının Anlamı
+Bu komutu çalıştırdığınızda aşağıdaki bilgileri içeren bir çıktı alabilirsiniz:
+
+Henüz İzlenmeyen (Untracked) Dosyalar:
+
+Git tarafından henüz izlenmeyen, yani versiyon kontrolüne eklenmemiş dosyaları listeler.
+Bu dosyaları Git'e eklemek için git add <dosya_adi> komutunu kullanabilirsiniz.
+Değişiklik Yapılmış (Modified) Dosyalar:
+
+Git tarafından izlenen ancak son commit'ten sonra değiştirilmiş dosyaları gösterir.
+Değişiklikleri hazırlık alanına eklemek için git add <dosya_adi> komutunu kullanabilirsiniz.
+Hazırlık Alanındaki (Staged) Dosyalar:
+
+Bir sonraki commit'e eklenmek üzere hazırlık alanına alınmış dosyaları gösterir.
+Bu dosyaları commit etmek için git commit -m "açıklama" komutunu kullanabilirsiniz.
+Başka Bilgiler:
+
+Hangi dalda (branch) olduğunuzu,
+Branch'iniz ile uzaktaki ana depo (remote repository) arasındaki farkları,
+Henüz commit edilmemiş değişiklikleri de gösterir.
+
+not: git add dosyaAdı burda daha commit edilmeye hazırlıyoruz bundan önceki otomatik yapıyor aslında bunuyapmayadabilriiz
+
+not: git commit -m "mesajını yazabilirsin açıklama gibi düşün"
+
+not: git log dediğinde yaptığın commitlerle ilgili bilgiler var 
+
+not: git log --oneline dediğinde ise tek satırlar halinde bilgi verir.
+
+not: git diff yaptığında hangi dosyada değişiklik yaparsan onlar listelenir.
+
+not: git diff deneme.txt buda direk dosyadaki değişiklikleri yansıtır.
+
+not: git add . şu şekil tüm dosyadakileri kabul etmiş olursun.buna gerek yok bundan önceki işlemi yaptığında bunu otomatikmen yapmış oluyorsun 
+
+not: git checkout -- deneme.txt burda yaptığın en son değişkliği geri alabilirsin (restore)
+
+not: git rm -f text.txt eğer dosyayı silmek isterseniz
+not: cd .. şu şekilde bir üst klasöre gidebilirsin 
+
+git rm -r /test
+
+Komutun Parçaları
+git: Git sürüm kontrol sistemini temsil eder.
+rm: Bir dosya veya klasörü Git deposundan kaldırmak (silmek) için kullanılır.
+-r: Rekürsif olarak (yani dizin ve içindekilerle birlikte) işlem yapmayı sağlar. Bu, tüm alt dizinleri ve dosyaları kapsar.
+/test: Silinmek istenen dizinin adıdır.
+
+-r parametresi, bir klasörü silerken onun içindeki tüm alt klasörleri ve dosyaları da silmek için kullanılır. Bu işleme rekürsif (recursive) silme denir.
+
+not: git mv deneme.txt test.txt yaparsan deneme ismini test yapmış olursun 
+
+git mv test.txt dosya bu şekilde de test.txt dosyasının yerini değiştirirsiniz
+
+git mv index.html dosya/abc.txt bu şekilde de index.html  dosyasının yerini ve adınıdeğiştirirsiniz
+
+not: git config global alias.st status bu şekilde yaparsan git st yazdığında status özelikleri gelir.
+
+not: cd ~/Desktop/app şu şekilde istediğin klasöre gdebilrisn 
+
+///////////////hithub deposu oluşturduktan sonra 
+
+1. Uzak Depo (Remote) Ekleme
+
+git remote add origin https://github.com/sehmuscakar/DenemeRepo.git    ---- bunu yapmadan önce git init yapman lazım ilgili klasörde
+
+Bu komutla https://github.com/sehmuscakar/DenemeRepo.git adresindeki uzak depoyu, origin adıyla yerel depona (local repository) ekledin.
+
+2. Uzak Depoları Kontrol Etme
+
+git remote
+
+Bu komut, eklediğin tüm uzak depoları listeler. Çıktıda sadece origin adı görünüyor, bu da uzak deponun başarıyla eklendiğini gösterir.
+
+3. Depo Durumunu Kontrol Etme
+
+git status
+
+Bu komut, şu anki dalını (branch) ve yapılacak işlem olup olmadığını gösterir. nothing to commit, working tree clean çıktısı, yapılacak bir değişiklik olmadığını ve tüm dosyaların güncel olduğunu belirtir.
+
+4. Değişiklikleri Uzak Depoya Gönderme (Push)
+
+git push -u origin master
+
+Bu komut, master dalını uzak depodaki origin’e gönderir. İlk defa gönderdiğin için -u seçeneği ile origin/master dalına eşleştirme yapılır. Bu işlem tamamlandığında, master -> master mesajı, master dalının başarıyla yüklendiğini gösterir.
+
+5. Değişiklikleri Uzak Depodan Çekme (Pull) // burda tabi biz ekledik ekip arkadaşımız bişey ekledi uzak sunucuya varsay bizde onu kendimize çekiyoruz
+
+git pull
+
+Bu komutla, uzak depodaki (GitHub) origin/master dalından yerel master dalına en güncel değişiklikleri çekmiş oldun. Yeni bir dosya (deneme_github.html) eklendiği için, 1 file changed, 1 insertion(+) gibi çıktı alırsın. Bu, uzak depoda yapılan değişikliklerin yerel depoya başarıyla getirildiğini gösterir.
+

@@ -1,0 +1,64 @@
+﻿Mantıksal/Kontrol yapılar (Logical structures / lo-cı-kıl / straç-tçırs)
+
+1. if Yapısı
+if yapısı, verilen bir koşulun doğru (true) olup olmadığını kontrol eder. Eğer koşul doğruysa, belirli bir kod bloğu çalıştırılır. Eğer koşul yanlış (false) ise, bu kod bloğu atlanır.
+if (koşul)
+{
+    // Koşul doğruysa çalışacak kod
+}
+
+2. else Yapısı
+else yapısı, if koşulunun yanlış olduğu durumda çalışacak kod bloğunu belirtir. Yani, if bloğunun dışında başka bir durumla karşılaşıldığında ne yapılacağını belirtir.
+
+if (koşul)
+{
+    // Koşul doğruysa çalışacak kod
+}
+else
+{
+    // Koşul yanlışsa çalışacak kod
+}
+
+3. else if Yapısı
+Birden fazla koşul kontrol etmek gerektiğinde else if yapısı kullanılır. Bu sayede farklı koşullara göre programın farklı yollar izlemesini sağlayabiliriz.
+
+if (koşul1)
+{
+    // Koşul1 doğruysa çalışacak kod
+}
+else if (koşul2)
+{
+    // Koşul2 doğruysa çalışacak kod
+}
+else
+{
+    // Hiçbiri doğru değilse çalışacak kod
+}
+
+4. Mantıksal Operatörler ile if Yapısı
+Birden fazla koşulu aynı anda kontrol etmek için mantıksal operatörler (&& ve ||) kullanılır.
+
+Ve operatörü (&&): İki koşulun da doğru olması durumunda kod bloğu çalışır.
+Veya operatörü (||): İki koşuldan en az birinin doğru olması durumunda kod bloğu çalışır.
+
+5. switch Yapısı
+switch yapısı, bir değişkenin değerine göre farklı işlemler yapılmasını sağlar. Birden fazla if-else koşulunun yerine kullanılabilir. Özellikle çok sayıda seçenek olduğunda daha okunaklıdır.
+
+switch (değişken)
+{
+    case değer1:
+        // Değer1'e eşitse yapılacak işlemler
+        break;
+    case değer2:
+        // Değer2'ye eşitse yapılacak işlemler
+        break;
+    default:
+        // Hiçbiri eşleşmezse yapılacak işlemler
+        break;
+}
+
+
+6. Ternary (Üçlü) Operatör
+Ternary operatörü, if-else yapısının kısa bir versiyonudur. Tek bir koşul kontrol edilir ve duruma göre iki farklı değer döndürülür.
+
+değişken = (koşul) ? doğruysa_değer : yanlışsa_değer;

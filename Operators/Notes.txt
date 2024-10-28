@@ -1,0 +1,41 @@
+﻿1. Aritmetik Operatörler
+Aritmetik operatörler, matematiksel işlemler yapmak için kullanılır. Bir alışveriş sitesinde, ürünlerin fiyatları ve adetleri üzerinden hesaplamalar yapılırken sıkça kullanılır.
+
+Toplama (+): İki değeri toplar.
+Çıkarma (-): İki değeri çıkarır.
+Çarpma (*): İki değeri çarpar.
+Bölme (/): İki değeri böler.
+Mod (%): Bölme işleminden kalan kısmı bulur.
+
+2. Karşılaştırma Operatörleri
+Karşılaştırma operatörleri, iki değeri karşılaştırır ve true ya da false sonucu döner. Alışveriş senaryosunda, kampanya uygulamak, stok kontrolü yapmak veya kullanıcıların harcama limitini kontrol etmek için kullanılır.
+
+Eşit mi? (==): İki değerin eşit olup olmadığını kontrol eder.
+Eşit değil mi? (!=): İki değerin eşit olmadığını kontrol eder.
+Büyüktür (>): İlk değerin, ikinci değerden büyük olup olmadığını kontrol eder.
+Küçüktür (<): İlk değerin, ikinci değerden küçük olup olmadığını kontrol eder.
+Büyük eşittir (>=): İlk değerin, ikinci değerden büyük veya eşit olup olmadığını kontrol eder.
+Küçük eşittir (<=): İlk değerin, ikinci değerden küçük veya eşit olup olmadığını kontrol eder.
+
+3. Mantıksal Operatörler
+Mantıksal operatörler, birden fazla koşulu aynı anda kontrol etmek için kullanılır. Alışveriş senaryosunda, hem stok kontrolü yaparken hem de kullanıcının yeterli bakiyesinin olup olmadığını aynı anda kontrol edebilirsiniz.
+
+Ve (&&): İki koşulun da doğru olması gerekir.
+Veya (||): Koşullardan birinin doğru olması yeterlidir.
+Değil (!): Bir koşulu tersine çevirir.
+
+4. Atama Operatörleri
+Atama operatörleri, bir değişkene değer atamak için kullanılır. Ayrıca, belirli bir değeri bir değişkenin üzerine eklemek ya da çıkarmak gibi işlemler için de kullanılır.
+
+Atama (=): Değeri bir değişkene atar.
+Topla ve ata (+=): Değerin üzerine ekler ve sonucu atar.
+Çıkar ve ata (-=): Değerin üzerine çıkarır ve sonucu atar.
+
+5. Artırma ve Azaltma Operatörleri
+Bu operatörler, bir değeri 1 artırmak ya da azaltmak için kullanılır. Alışveriş senaryosunda, sepet sayısı artırılır veya azaltılırken kullanılır.
+
+Artırma (++): Değeri bir artırır.
+Azaltma (--): Değeri bir azaltır.
+
+6. Mod Operatörü (% Modulus)
+Mod operatörü, bir sayının diğerine bölümünden kalan değeri verir. Bir alışveriş sitesinde indirim kampanyası örneği için kullanılabilir: Her 5 üründe bir indirim yapmak gibi.
