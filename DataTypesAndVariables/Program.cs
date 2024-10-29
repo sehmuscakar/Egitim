@@ -17,7 +17,7 @@ Console.WriteLine($"Kategori: {kategoriKodu}");
 
 // Değişkenler (farklı veri türleri)
 
-
+//type safety -tip güvenliği
 string isim;
 int yas;
 bool cinsiyet; // true: Erkek, false: Kadın
@@ -61,3 +61,13 @@ Console.WriteLine($"Kilo: {kilo:F2} kg");
 // Programın bitmesini bekle
 Console.WriteLine("Çıkmak için bir tuşa basın...");
 Console.ReadKey();
+
+
+//do not repeat yourself - kendini tekrarlama 
+var isim1 = "şehmus";
+Console.WriteLine("şehmus");
+Console.WriteLine("şehmus");
+Console.WriteLine("şehmus");
+Console.WriteLine(isim);
+Console.WriteLine(isim);
+Console.WriteLine(isim);// bu şekilde kullanman daha iyi

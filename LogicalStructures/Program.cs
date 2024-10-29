@@ -249,3 +249,16 @@ else
 
 }
 
+//ternary operatörü veya koşulu 
+
+int sayi = 10;
+string sonuc = (sayi > 5) ? "Büyük" : "Küçük";
+Console.WriteLine(sonuc);  // Çıktı: Büyük
+
+string Degerlendir(int sayi)
+{
+    return (sayi % 2 == 0) ? "Çift" : "Tek";
+}
+
+Console.WriteLine(Degerlendir(3));  // Çıktı: Tek
+Console.WriteLine(Degerlendir(4));  // Çıktı: Çift
