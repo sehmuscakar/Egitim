@@ -5,7 +5,7 @@ var adSoyad = "   Şehmus Çakar   ";
 string[] diziAdSoyad = adSoyad.Trim().Split(' '); // burda baştan ve sonda boşlukları aldıktan sonra bölme yap boşluğa göre 
 
 Console.WriteLine(diziAdSoyad[0]);
-Console.WriteLine(diziAdSoyad[1][0]);//
+Console.WriteLine(diziAdSoyad[1][0]);
 
 
 //Kullanıcıdan pozitif sayılar alarak toplamını hesaplamak ve sonucu ekrana yazdırmak.-------------------- döngüler for ve foreach dizilerde anlatılacak
