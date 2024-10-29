@@ -1,27 +1,7 @@
-﻿var fullName = "Şehmus Çakar öztürk batman";
-string[] dizi = fullName.Trim().Split(' ');
-var data = dizi[0] + " " + dizi[1][0];
-var data2 = dizi[0] + " " + dizi[2][0];
-var data3 = dizi[0] + " " + dizi[3][0];
-
-
-if (fullName == "Şehmus Çakar")
-{
-    Console.WriteLine(data); //şehmus ç
-}
-else if (fullName == "Şehmus  Çakar")
-{
-    Console.WriteLine(data2); //şehmus ç
-}
-else if (fullName == "Şehmus  Çakar öztürk")
-{
-    Console.WriteLine(data3);//şehmus ö
-}
-else
-{
-    Console.WriteLine("Lütfen geçerli bi ad ve soyad giriniz");
-}
-
+﻿int productPrice = 100; // Ürünün fiyatı
+int quantity = 3; // Ürün adedi
+int totalPrice = productPrice * quantity; // Toplam fiyat hesaplanıyor
+Console.WriteLine("Toplam fiyat: " + totalPrice + " TL"); // Çıktı: Toplam fiyat: 300 TL
 
 
 //---------------------
@@ -89,7 +69,7 @@ else
 
 //Kullanıcıdan iki sayı alarak aritmetik, karşılaştırma, mantıksal ve birleştirme operatörlerini kullanarak işlemler gerçekleştirmek.------------------------ operatörler
 
-//Kullanıcıdan iki sayı al
+ //Kullanıcıdan iki sayı al
 Console.WriteLine("Birinci sayıyı girin:");
 double sayi1 = Convert.ToDouble(Console.ReadLine());
 

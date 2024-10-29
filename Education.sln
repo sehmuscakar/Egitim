@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Oper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalStructures", "LogicalStructures\LogicalStructures.csproj", "{0C7AA610-4FD3-4984-B300-626999025BEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git", "Git\Git.csproj", "{FECA71EA-6C0A-4292-A9BF-64953DE0A79C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0C7AA610-4FD3-4984-B300-626999025BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C7AA610-4FD3-4984-B300-626999025BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C7AA610-4FD3-4984-B300-626999025BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECA71EA-6C0A-4292-A9BF-64953DE0A79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECA71EA-6C0A-4292-A9BF-64953DE0A79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECA71EA-6C0A-4292-A9BF-64953DE0A79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECA71EA-6C0A-4292-A9BF-64953DE0A79C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
