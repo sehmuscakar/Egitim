@@ -36,3 +36,13 @@ Bag-Free: Hatasız yazılım yoktur anlamına gelir; yazılım geliştirme süre
 Kod Yeniden Kullanılabilirlik (Reusability)
 
 Reusability: Yazılan kodun birden fazla yerde veya ihtiyaç duyulan her durumda tekrar kullanılabilme özelliğidir. Bu özellik, kodun daha verimli ve modüler olmasını sağlar.
+
+Yazılım Nedir?
+Yazılım, sürekli gelişen ve değişen bir organizma gibidir. İnsan ihtiyaçları hiçbir zaman tamamen bitmediğinden, yazılımlar sürekli olarak güncelleme ve değişiklik taleplerine açık olmalıdır. Bu nedenle, yazılımın sürdürülebilir ve esnek bir yapıya sahip olması gerekir.
+
+Genel Kodlama Kuralları
+Public Değişken ve Özellikler: C# dilinde genel bir kural olarak, eğer bir değişkeni veya özelliği public yapıyorsanız, PascalCase ile yazmalısınız. Yani ilk harfi büyük olmalı. Bu, kodun okunabilirliğini ve anlaşılabilirliğini artırır.
+
+Bag-Free (Hatasız Yazılım Yoktur)
+
+Bag-Free: Hatasız yazılım yoktur; yazılım geliştirme sürecinde her zaman hataların olabileceğini kabul ederiz. Bu gerçek, yazılım geliştirme sürecinde dikkatli testler ve düzenli güncellemelerin önemini vurgular.
