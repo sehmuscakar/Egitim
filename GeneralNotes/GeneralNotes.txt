@@ -1,0 +1,38 @@
+﻿Veri Türü ve Tip Güvenliği
+Tip Güvenliği: Değişkenleri belirli bir veri türüyle tanımlamak, tip güvenliği sağlar. Bu sayede hatalar azaltılarak veri yönetimi daha güvenilir hale gelir.
+
+Programlama
+Programlama, verilerin yönetimi ve işlenmesi üzerine kurulu bir sistemdir. Programlama, kodların oluşturulması ve işletilmesi ile problemlerin çözülmesini sağlar.
+
+Değişken ve Özellik İsimlendirme Kuralları
+
+camelCase: Değişken isimlerinde kullanılır; ilk harf küçük, sonraki kelimelerin ilk harfleri büyük olur. Örnek: ogrenciAdı.
+
+PascalCase: Özellik isimlerinde kullanılır; tüm kelimelerin ilk harfi büyük olur. Örnek: OgrenciName.
+
+DRY (Don't Repeat Yourself)
+DRY: "Don't Repeat Yourself" (Kendini Tekrarlama) ifadesinin kısaltmasıdır. Yazılım geliştirme pratiğinde önemli bir prensiptir ve bir bilginin veya işlemin yalnızca bir yerde temsil edilmesi gerektiğini savunur. DRY prensibi, kod tekrarını ve tutarsızlıkları önler, böylece yazılımın bakımını ve genişletilmesini kolaylaştırır.
+
+Encapsulation (Kapsülleme)
+Encapsulation: Nesne yönelimli programlamada kapsülleme, verileri ve işlevleri bir sınıfta toplama ve onları dışarıdan gizleme işlemidir. Daha fazla bilgi için araştırılması önerilir.
+
+Referans ve Değer Tipleri
+Referans ve Değer Tipleri: Bu kavramlar değişkenlerin bellekte nasıl tutulduğunu açıklar. YouTube'da paylaşılan bir videonun yaklaşık 3. saat civarında bu konu ayrıntılı olarak anlatılmış.
+
+Mernis Kontrolü
+Mernis Kontrolü: Türkiye’deki vatandaşların kimlik bilgilerinin doğrulanması için kullanılan bir yöntemdir. Detaylı bilgi için araştırma yapılabilir.
+
+SonarQube
+SonarQube: Yazılım kalite testleri ve kod analizleri yapan bir araçtır. Kodun kalitesini artırarak güvenlik ve performans açısından geliştirilmesine yardımcı olur.
+
+Yazılım Tasarım Desenleri
+Singleton Deseni: Aynı sınıftan tek bir örneğin kullanılmasını sağlar. Şirketlerde sık kullanılan bir tasarım desenidir.
+Fabrika Deseni: Nesnelerin oluşturulmasını merkezi bir yerden yaparak kodun daha esnek ve modüler olmasını sağlar. Bu desen de iş yerinizde kullanılan bir yöntemdir.
+
+Bag-Free Yazılım
+
+Bag-Free: Hatasız yazılım yoktur anlamına gelir; yazılım geliştirme sürecinde her zaman hatalarla karşılaşılabileceğini belirtir.
+
+Kod Yeniden Kullanılabilirlik (Reusability)
+
+Reusability: Yazılan kodun birden fazla yerde veya ihtiyaç duyulan her durumda tekrar kullanılabilme özelliğidir. Bu özellik, kodun daha verimli ve modüler olmasını sağlar.
