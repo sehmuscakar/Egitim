@@ -20,8 +20,6 @@ foreach (string s in ogrenci)
 }
 
 
-
-
 string[] student = { "merve", "yeliz", "esra" };
 
 for (int i = 0; i < student.Length; i++)

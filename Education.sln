@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Git", "Git\Git.csproj", "{F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{E88C23FC-352C-4620-9D24-45BA24675C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralNotes", "GeneralNotes\GeneralNotes.csproj", "{26CE7B21-FEDE-4DA4-970E-399AC4C33515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneralNotes", "GeneralNotes\GeneralNotes.csproj", "{26CE7B21-FEDE-4DA4-970E-399AC4C33515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{E7C9BC61-D0AD-4B92-B064-14135E1055AC}"
+	ProjectSection(SolutionItems) = preProject
+		UseQuick.txt = UseQuick.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
