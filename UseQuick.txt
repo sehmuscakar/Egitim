@@ -1,1 +1,2 @@
 1) Bilgisiyar yön tuþlarý ile projede klasörler arasýnda hýzlýca gezinebilirsin
+2) bir deðiþkeni deðiþtirdiðinde o deðiþkeni farklý yerde dekullanýrsan topllu olarak düzenleyebilrisin ctrl + nokta yaparak 

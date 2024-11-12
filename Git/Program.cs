@@ -26,6 +26,8 @@
 //}
 
 
+using Git;
+
 string adSoyad = "şehmus                     ali        akif         ";
 string[] adSoyadDizi = adSoyad.Trim().Split(' ');
 string duzenlenmisKelime = "";
@@ -48,7 +50,32 @@ for (int i = 0; i < adSoyadDizi.Length; i++)
     {
 
     }
- 
 }
 
 
+var ınstance = new Teacher();
+ınstance.Name = "Şehmus";
+ınstance.Surname = "Çakar";
+ınstance.Id = 1;
+Console.WriteLine(ınstance);
+
+var ınstance2 = new Student();
+ınstance2.Name =ınstance.Name;
+ınstance2.Surname =ınstance.Surname;
+ınstance2.Id =ınstance.Id;
+Console.WriteLine(ınstance2.Name +" "+ınstance2.Surname+" "+ınstance2.Id);
+
+var durumLisans = 5;
+
+if (durumLisans < 0)
+{
+    Console.WriteLine("lisans süreniz geçmiştir");
+}
+else if (durumLisans == 5)
+{
+    Console.WriteLine("lisans süreniz bugün bitecektir");
+}
+else
+{
+    Console.WriteLine("lisans süreniz geçmiştir");
+}
