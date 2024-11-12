@@ -1,2 +1,31 @@
+
+//Hýzlý Kullným tuþlarý
 1) Bilgisiyar yön tuþlarý ile projede klasörler arasýnda hýzlýca gezinebilirsin
 2) bir deðiþkeni deðiþtirdiðinde o deðiþkeni farklý yerde dekullanýrsan topllu olarak düzenleyebilrisin ctrl + nokta yaparak 
+3) windows+ R > cmd yi açar control yaz denetim masasýný açar
+4)windows+D > masaüstüne gider
+5)ctrl+tab > en son iki sayfada gezer
+6)metin üzerinde iki defa týkla daha hýzlý kopyalarsýn ceya ctrl +c yap ilgili satýrda tümünü kapyalar seçmene gerek yok 
+7)ctrl+m+o> tüm metotlarý kapatýr
+8)ctrl+k+c> yoruma alýr
+9)ctrl+k+u> yorumdan çýkarýr
+10)windows +v > birden fazlla yapýþtýrma seçeneði
+11)ctrl+k+d> kodlarý düzenler
+12)windows+shift+s ekran görüntüsü almayý saðlar
+13)alt+shift+f > vs code kodalrý düzenler
+14)ctrl+w> açýk kodlarý kapatýr
+15)ctrl+g>dosyalar arasýnda arama yapabilrisin
+16)lorem20> vs code metin yazar
+17)shift+alt+a>yoruma alýr ve çýkarýr
+18)ctrl+H > vs code birden fazla metni ayný anda deðiþtirebilirsin
+19> klavye yön tuþlarý ile dosya yönetimini klasör daha kolay yönetebilirisin
+20>shift+enter break point yukarý gitmesini saðlar
+21>ctrl+ boþluk olan verileri getirir metota
+
+
+//arvesoft bilgiler work
+-ilgili katman > Properties>Sign IN > create test certfikate
+-yeni bir sayfa eklerken > Build actionu content olacak 
+-copy to output directory > cope always olacak
+-casting> tip dönnüþümü
+
