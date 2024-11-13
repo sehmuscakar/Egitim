@@ -21,6 +21,14 @@
 19> klavye yön tuşları ile dosya yönetimini klasör daha kolay yönetebilirisin
 20>shift+enter break point yukarı gitmesini sağlar
 21>ctrl+ boşluk olan verileri getirir metota
+22) olan bir değişkenin ismini değiştirirsen ve farklı yerlerde kullnaılmışsa aynı anda hepsini değiştirirsen heryerde bozulur aynı anda düzeltmek için > ctrl + . rename olnaı seç 
+23)shift herzamn bir olayın tersini yapar
+24)ctrl+tap en son iki sayfa arasında gezinti yapar
+25)f7 xmal de kod tarafına gider
+
+
+
+
 
 
 //arvesoft bilgiler work
